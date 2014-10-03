@@ -16,7 +16,7 @@ function [ return_val ] = BSPut(S, K, r, q, vol, T)
     Nd_2 = normcdf(-d_2,0,1);
 
     p = -S*exp(-q*T)*Nd_1 + K*exp(-r*T)*Nd_2;
-
+    disp(p);
     return_val = p;
 
 end

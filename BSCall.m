@@ -16,7 +16,7 @@ function [ return_val ] = BSCall(S, K, r, q, vol, T)
     Nd_2 = normcdf(d_2,0,1);
 
     c = S*exp(-q*T)*Nd_1 - K*exp(-r*T)*Nd_2;
-
+    disp(c);
     return_val = c;
 
 end
