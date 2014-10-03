@@ -6,13 +6,14 @@ BSCall.m
 Write a function BSCall(S, K, r, q, vol, T) that returns the BlackScholes price of a call.
 
 	>> BSCall(50,50,.04,.017,.20,1);
-    4.4555
+	4.4555
 
 BSPut.m
 -------
 Write a function BSPut(S, K, r, q, vol, T) that returns the BlackScholes price of a put.
+	
 	>> BSPut(50,50,.04,.017,.20,1);
-    3.3378
+	3.3378
 
 BSCall_Plot.m
 -------------
