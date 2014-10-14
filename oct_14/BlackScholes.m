@@ -24,28 +24,44 @@ function [return_val] = BlackScholes(S,K,T,r,vol,q,IsCall,Result)
 
 	switch Result
 		case 0 % Price
+			string=sprintf('\nPrice');
+			disp(string);
 			return_val = BSPrice (S,K,T,r,vol,q,IsCall);
 		case 1 % Delta
+			string=sprintf('\nDelta');
+			disp(string);
 			return_val = BSDelta (S,K,T,r,vol,q,IsCall);
 		case 2 % Gamma
+			string=sprintf('\nGamma');
+			disp(string);
 			return_val = BSGamma (S,K,T,r,vol,q);
 		case 3 % Vega
+			string=sprintf('\nVega');
+			disp(string);
 			Vega = BSVega(S,K,T,r,vol,q);
 			% Vega per \% requires dividing by 100
 			return_val  = Vega/100;
 		case 4 % Theta
+			string=sprintf('\nTheta');
+			disp(string);
 			Theta = BSTheta(S,K,T,r,vol,q,IsCall);
 			% Theta per day requires dividing by 365
 			return_val = Theta/365;
 		case 5 % Rho
+			string=sprintf('\nRho');
+			disp(string);
 			Rho = BSRho(S,K,T,r,vol,q,IsCall);
 			% Rho per basis point requires dividing by 10,000;
 			return_val = Rho/10000;
 		case 6 % Psi
+			string=sprintf('\nPsi');
+			disp(string);
 			Psi = BSPsi(S,K,T,r,vol,q,IsCall);
 			% Psi per \% requires dividing by 100
 			return_val = Psi/100;
 		case 7 % Implied Vol
+			string=sprintf('\nImplied Volatility');
+			disp(string);
 			Price = vol;
 			return_val = BSImpliedVol(S,K,T,r,Price,q,IsCall);
 		end
