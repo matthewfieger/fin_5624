@@ -1,5 +1,9 @@
 FIN 5624 - Numerical Methods - Fall 2014
 ========================================
+The course examines numerical methods for valuing financial derivatives. Topics include:
+* Tree Methods
+* Finite Difference Techniques
+* Financial Engineering Methods and MATLAB
 
 October 14 Assignemnt
 ====================
@@ -58,12 +62,6 @@ October 14 Assignemnt
 	ans =
 
 	   -0.2848
-
-	>> BlackScholes(50,50,1,.05,4.6135
-	,0.02,1,7)
-	 BlackScholes(50,50,1,.05,4.6135
-									|
-	Error: Expression or statement is incorrect--possibly unbalanced (, {, or [.
 
 	>> BlackScholes(50,50,1,.05,4.6135,0.02,1,7)
 
