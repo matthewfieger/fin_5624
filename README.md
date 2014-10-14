@@ -71,6 +71,15 @@ October 14 Assignemnt
 
 		0.2000
 
+	>> BSImpliedVol_Newton(50,50,1,.05,4.6135,0.02,1)
+
+	Implied Volatility (Newton's Method)
+
+	ans =
+
+    	0.2000
+
+
 2D Plots
 --------
 ![BSCall_Plot](https://raw.githubusercontent.com/matthewfieger/fin_5624/master/oct_14/2D_0.png)
