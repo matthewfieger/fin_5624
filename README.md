@@ -90,8 +90,6 @@ October 14 Assignemnt
 ![BSCall_Plot](https://raw.githubusercontent.com/matthewfieger/fin_5624/master/oct_14/3D_4.png)
 ![BSCall_Plot](https://raw.githubusercontent.com/matthewfieger/fin_5624/master/oct_14/3D_5.png)
 ![BSCall_Plot](https://raw.githubusercontent.com/matthewfieger/fin_5624/master/oct_14/3D_6.png)
-![BSCall_Plot](https://raw.githubusercontent.com/matthewfieger/fin_5624/master/oct_14/3D_7.png)
-
 
 October 7 Assignment
 ====================
