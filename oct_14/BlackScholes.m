@@ -34,7 +34,7 @@ function [return_val] = BlackScholes(S,K,T,r,vol,q,IsCall,Result)
 			% Vega per \% requires dividing by 100
 			return_val  = Vega/100;
 		case 4 % Theta
-			Theta= BSPrice (S,K,T,r,vol,q);
+			Theta = BSTheta(S,K,T,r,vol,q,IsCall);
 			% Theta per day requires dividing by 365
 			return_val = Theta/365;
 		case 5 % Rho
@@ -44,7 +44,7 @@ function [return_val] = BlackScholes(S,K,T,r,vol,q,IsCall,Result)
 		case 6 % Psi
 			Psi = BSPsi(S,K,T,r,vol,q,IsCall);
 			% Psi per \% requires dividing by 100
-			Result = Psi/100;
+			return_val = Psi/100;
 		case 7 % Implied Vol
 			Price = vol;
 			return_val = BSImpliedVol(S,K,T,r,Price,q,IsCall);

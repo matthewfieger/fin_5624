@@ -1,6 +1,6 @@
 function ImpliedVol = BSImpliedVol(S,K,T,r,Price,q,IsCall)
 	% Returns Black Scholes Implied Volatility Given A European Call or Put
-	f = @ (vol) BSPrice(S,K,T,r,vol,q,isCall) - Price; %handle = @(arglist)anonymous_function
+	f = @ (vol) BSPrice(S,K,T,r,vol,q,IsCall) - Price; %handle = @(arglist)anonymous_function
 	ImpliedVolSeed = 0.10;
 	ImpliedVol = fzero(f,ImpliedVolSeed);
 
