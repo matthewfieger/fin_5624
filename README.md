@@ -17,10 +17,12 @@ Asian option with geometric average:
 
 2D Plot
 --------
+Asian option with geometric average:
 ![BSCall_Plot](https://raw.githubusercontent.com/matthewfieger/fin_5624/master/oct_21/2D_1.png)
 
 3D Plot
 --------
+Asian option with geometric average:
 ![BSCall_Plot](https://raw.githubusercontent.com/matthewfieger/fin_5624/master/oct_21/3D_1.png)
 
 
