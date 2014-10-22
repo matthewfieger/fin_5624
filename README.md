@@ -5,7 +5,26 @@ The course examines numerical methods for valuing financial derivatives. Topics 
 * Finite Difference Techniques
 * Financial Engineering Methods and MATLAB
 
-October 14 Assignemnt
+October 21 Exam
+====================
+Asian option with geometric average:
+
+	>> GeoCall(30,30,.07,.01,.30,1)
+
+	ans =
+
+		2.2870
+
+2D Plot
+--------
+![BSCall_Plot](https://raw.githubusercontent.com/matthewfieger/fin_5624/master/oct_21/2D_1.png)
+
+3D Plot
+--------
+![BSCall_Plot](https://raw.githubusercontent.com/matthewfieger/fin_5624/master/oct_21/3D_1.png)
+
+
+October 14 Assignment
 ====================
 	>> BlackScholes(50,50,1,.05,.2,0.02,1,0)
 
